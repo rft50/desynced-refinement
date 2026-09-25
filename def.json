@@ -1,0 +1,17 @@
+{
+    "id": "Refinement",
+    "name": "Refinement",
+    "version_name": "0.1",
+    "version_code": 1,
+    "author": "rft50",
+    "homepage": "",
+    "description": "Getting more ore per ore",
+    "packages": {
+        "Data": {
+            "name": "Data",
+            "entry": "data.lua",
+            "dependencies": [ "Main/Data" ],
+            "type": "Addon"
+        }
+    }
+}
