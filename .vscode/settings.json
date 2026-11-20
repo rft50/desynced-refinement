@@ -1,0 +1,38 @@
+{
+    "Lua.diagnostics.globals": [
+        "Map",
+        "Comp",
+        "CreateUplinkRecipe",
+        "CreateProductionRecipe",
+        "data",
+        "TICKS_PER_SECOND",
+        "Tool"
+    ],
+    "Lua.diagnostics.disable": [
+        "unbalanced-assignments",
+        "cast-local-type",
+        "need-check-nil",
+        "duplicate-set-field",
+        "undefined-field",
+        "assign-type-mismatch",
+    ],
+    "Lua.diagnostics.severity": {
+        "redundant-return": "Error",
+        "unused-function": "Error",
+        "empty-block": "Error",
+        "trailing-space": "Error",
+        "unreachable-code": "Error",
+        "redundant-parameter": "Error",
+        "missing-parameter": "Error",
+        "unused-vararg": "Error",
+    },
+    "Lua.type.weakNilCheck": true,
+    "Lua.type.weakUnionCheck": true,
+    "files.associations": {
+        "*.json": "jsonc",
+    },
+    "search.exclude": {
+        "desynced-lls-library.lua": true,
+        ".vscode": true,
+    },
+}
